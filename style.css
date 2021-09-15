@@ -1,0 +1,98 @@
+body{
+    magin:0;
+    padding-top: 800px
+   
+}
+
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#E1BEE7 0%,#90CAF9 100%);
+    color: deeppink;
+    text-align-last: center;
+    font-size:50px;
+}
+    .innerdiv{
+        display: table-cell;
+        position: relative;
+        text-align: center
+            vertical-align:middle;
+        
+}
+        #link{
+      padding: 50px;
+        text-align: center;
+        font-size: 50px;font  
+}
+.menu{
+   float: left;
+    color: blueviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 20px;
+    font-family: cursive; 
+}
+.menu:hover{
+    background-color:aquamarine;
+}
+.type{
+list-style: none;
+font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+z-index: 10;
+   cursor: pointer;
+}
+#hobby{
+   font-size: 60px; 
+line-height: 1.2;
+ font-family: 'Dancing Script', cursive;   
+color: firebrick;
+}
+#my{
+   font-size: 60px; 
+   line-height: 1.2; 
+   font-family: 'Dancing Script', cursive; 
+    color: darkorchid;
+}
+#laptop{
+  width: 1000;
+  height: 400;
+    }
+#scratch{
+   width: 1000;
+    height: 400;
+    }
+a{
+    text-decoration: none;
+}
+.line{
+    height: 6px;
+    background-color: darkslateblue;
+    width: 70px;
+    margin: 6px auto;
+    color: blanchedalmond;
+}
+#RBB{
+    width: 1000;
+}
+html{
+  scroll-behavior: smooth 
+    }
